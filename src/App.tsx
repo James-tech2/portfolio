@@ -1,14 +1,11 @@
 import './App.css'
-import './components/HelloWorld'
 import HelloWorld from './components/HelloWorld'
 
 function App() {
   return (
-    <>
-      <section id="center">
-        <HelloWorld></HelloWorld>
-      </section>
-    </>
+    <section id="center">
+      <HelloWorld className="text-3xl font-bold text-blue-600" />
+    </section>
   )
 }
 

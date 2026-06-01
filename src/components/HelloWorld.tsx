@@ -1,7 +1,10 @@
-function HelloWorld() {
+type Props = {
+  className?: string
+}
 
+function HelloWorld({ className }: Props) {
   return (
-    <div>
+    <div className={className}>
       Hello World!
     </div>
   )
