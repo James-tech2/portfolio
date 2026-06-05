@@ -1,41 +1,6 @@
-import ChatImg from "../assets/chat.png";
-import EcommerceImg from "../assets/ecommerce.png";
-import PMImg from "../assets/pm.png";
-import SaaSImg from "../assets/saas.png";
 import { content } from "../lib/content";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "Realtime Chat App",
-      desc: "WebSocket-powered chat with presence, typing indicators, and message history.",
-      tech: ["React", "TypeScript", "Node.js", "Socket.IO", "Redis"],
-      image: ChatImg,
-      alt: "Realtime Chat App screenshot",
-    },
-    {
-      title: "E‑commerce Platform",
-      desc: "Product catalog, shopping cart, checkout with Stripe, admin dashboard.",
-      tech: ["Next.js", "PostgreSQL", "Prisma", "Stripe", "Vercel"],
-      image: EcommerceImg,
-      alt: "E-commerce Platform screenshot",
-    },
-    {
-      title: "Project Management Tool",
-      desc: "Task boards, real-time collaboration, notifications and role-based access.",
-      tech: ["React", "NestJS", "Postgres", "Docker", "CI/CD"],
-      image: PMImg,
-      alt: "Project Management Tool screenshot",
-    },
-    {
-      title: "SaaS Analytics Dashboard",
-      desc: "Data visualizations, usage tracking, and actionable insights for product teams.",
-      tech: ["React", "Node.js", "Chart.js", "PostgreSQL", "Docker"],
-      image: SaaSImg,
-      alt: "SaaS Analytics Dashboard screenshot",
-    },
-  ];
-
   return (
     <section id="projects" className="py-16 bg-slate-900 text-white">
       <div className="max-w-6xl mx-auto px-6">
@@ -48,7 +13,7 @@ const Projects = () => {
         </header>
 
         <div className="grid gap-6 sm:grid-cols-2">
-          {projects.map((p) => (
+          {content.project.projects.map((p) => (
             <article
               key={p.title}
               className="p-6 bg-white/5 border border-white/6 rounded-lg hover:shadow-lg transition"

@@ -1,35 +1,6 @@
-const Skills = () => {
-  const frontEnd = [
-    { name: "React", level: "Advanced", value: 90 },
-    { name: "TypeScript", level: "Advanced", value: 85 },
-    { name: "Next.js", level: "Advanced", value: 82 },
-    { name: "Tailwind CSS", level: "Advanced", value: 88 },
-    { name: "HTML", level: "Expert", value: 95 },
-    { name: "CSS", level: "Expert", value: 92 },
-  ];
-  const backEnd = [
-    { name: "Node.js", level: "Advanced", value: 88 },
-    { name: "Express", level: "Advanced", value: 84 },
-    { name: "NestJS", level: "Intermediate", value: 75 },
-    { name: "TypeORM", level: "Intermediate", value: 72 },
-    { name: "PostgreSQL", level: "Advanced", value: 80 },
-    { name: "MongoDB", level: "Advanced", value: 78 },
-  ];
-  const cloud = [
-    { name: "AWS (Lambda, S3, RDS)", level: "Intermediate", value: 76 },
-    { name: "Vercel", level: "Advanced", value: 85 },
-    { name: "Netlify", level: "Advanced", value: 82 },
-    { name: "Docker", level: "Intermediate", value: 74 },
-  ];
-  const tools = [
-    { name: "Git", level: "Expert", value: 93 },
-    { name: "Jest", level: "Advanced", value: 80 },
-    { name: "ESLint", level: "Advanced", value: 86 },
-    { name: "Prettier", level: "Advanced", value: 88 },
-    { name: "CI/CD", level: "Intermediate", value: 72 },
-    { name: "Webpack", level: "Intermediate", value: 70 },
-  ];
+import { content } from "../lib/content";
 
+const Skills = () => {
   const SkillCard = ({
     title,
     items,
@@ -79,10 +50,13 @@ const Skills = () => {
         </header>
 
         <div className="grid gap-6 xl:grid-cols-2">
-          <SkillCard title="Front-end" items={frontEnd} />
-          <SkillCard title="Back-end & Databases" items={backEnd} />
-          <SkillCard title="Cloud & DevOps" items={cloud} />
-          <SkillCard title="Tools & Testing" items={tools} />
+          <SkillCard title="Front-end" items={content.skill.frontEnd} />
+          <SkillCard
+            title="Back-end & Databases"
+            items={content.skill.backEnd}
+          />
+          <SkillCard title="Cloud & DevOps" items={content.skill.cloud} />
+          <SkillCard title="Tools & Testing" items={content.skill.tools} />
         </div>
       </div>
     </section>

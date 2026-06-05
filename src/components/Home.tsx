@@ -1,5 +1,3 @@
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-
 function Home() {
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

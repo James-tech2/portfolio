@@ -1,22 +1,6 @@
-const Contact = () => {
-  const contactItems = [
-    {
-      label: "Email",
-      value: "hello@jamesblack.dev",
-      href: "mailto:hello@jamesblack.dev",
-    },
-    {
-      label: "LinkedIn",
-      value: "linkedin.com/in/jamesblack",
-      href: "https://linkedin.com/in/jamesblack",
-    },
-    {
-      label: "GitHub",
-      value: "github.com/jamesblack",
-      href: "https://github.com/jamesblack",
-    },
-  ];
+import { content } from "../lib/content";
 
+const Contact = () => {
   return (
     <section
       id="contact"
@@ -38,7 +22,7 @@ const Contact = () => {
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              {contactItems.map((item) => (
+              {content.contact.contactItems.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
