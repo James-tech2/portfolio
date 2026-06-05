@@ -38,6 +38,7 @@ const Skills = () => {
     <section
       id="skills"
       className="min-h-full py-16 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white"
+      aria-label="Skills Section"
     >
       <div className="max-w-5xl mx-auto px-6">
         <header className="mb-10 text-center">

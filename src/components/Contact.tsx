@@ -5,6 +5,7 @@ const Contact = () => {
     <section
       id="contact"
       className="min-h-screen bg-slate-950 text-white py-20"
+      aria-label="Contact Section"
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">

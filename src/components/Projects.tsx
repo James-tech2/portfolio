@@ -2,7 +2,11 @@ import { content } from "../lib/content";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 bg-slate-900 text-white">
+    <section
+      id="projects"
+      className="py-16 bg-slate-900 text-white"
+      aria-label="Projects Section"
+    >
       <div className="max-w-6xl mx-auto px-6">
         <header className="mb-8 text-center">
           <h2 className="text-3xl font-bold">Projects</h2>

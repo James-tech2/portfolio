@@ -4,7 +4,10 @@ function Home() {
   };
 
   return (
-    <section className="min-h-screen first-bg flex items-center">
+    <section
+      className="min-h-screen first-bg flex items-center"
+      aria-label="Home Section"
+    >
       <div className="container mx-auto px-6 ">
         <div className="max-w-5xl">
           <h1 className="text-6xl md:text-8xl font-bold mb-4">

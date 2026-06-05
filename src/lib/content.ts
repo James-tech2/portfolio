@@ -79,14 +79,9 @@ export const content = {
             href: "mailto:hello@jamesblack.dev",
             },
             {
-            label: "LinkedIn",
-            value: "linkedin.com/in/jamesblack",
-            href: "https://linkedin.com/in/jamesblack",
-            },
-            {
             label: "GitHub",
-            value: "github.com/jamesblack",
-            href: "https://github.com/jamesblack",
+            value: "github.com/James-tech2",
+            href: "https://github.com/James-tech2",
             },
         ]
     }
