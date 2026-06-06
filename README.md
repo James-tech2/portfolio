@@ -12,29 +12,12 @@ A modern, fully responsive portfolio template built with React, TypeScript, and 
 
 🎯 Tailwind CSS for fast and efficient styling
 
-🌙 Smooth animations and transitions
-
 🧩 Reusable and modular components
-
-📂 Project showcase section
-
-👨‍💻 About Me section
-
-🛠️ Skills and Technologies section
-
-📞 Contact form and social links
 
 🚀 Optimized performance and fast loading
 
 🔍 SEO-friendly structure
 
-
-**Development Tools**
-ESLint
-
-Prettier
-
-Git
 
 **📁 Project Structure**
 
@@ -50,6 +33,7 @@ src/
 
 └── main.tsx
 
+
 **🚀 Getting Started**
 
 Prerequisites
@@ -58,6 +42,7 @@ Make sure you have installed:
 
 Node.js (v18 or later)
 npm or yarn
+
 Installation
 
 Clone the repository:
@@ -76,13 +61,6 @@ Start the development server:
 
 npm run dev
 
-The application will be available at:
-
-http://localhost:5173
-
-📦 Build for Production
-
-npm run build
 
 **🎯 Customization**
 
@@ -101,21 +79,10 @@ Assets
 Exist images in src/assets/(e.g., logo, projects photo) with your own.
 
 
-**📸 Sections Included**
+**Live Demo**
 
-Home Section
+http://portfolio-six-gilt-vlowfc8pri.vercel.app
 
-About Section
-
-Skills Section
-
-Experience Section
-
-Projects Section
-
-Contact Section
-
-Footer
 
 **💡 Author**
 
@@ -125,8 +92,5 @@ Built with ❤️ using React, TypeScript, and Tailwind CSS.
 
 GitHub: https://github.com/James-Tech2
 
-Portfolio: https://github.com/James-tech2/portfolio
-
 Email: unicon3256@outlook.com
 
-Feel free to customize and use this template for your personal portfolio, freelance projects, or professional website.
