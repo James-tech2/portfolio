@@ -5,7 +5,7 @@ import SaaSImg from "../assets/saas.png";
 
 export const content = {
     navbar: {
-        navlinks: ['Home', 'About', 'Skills', 'Projects', 'Contact']
+        navlinks: ['Home', 'About', 'Skills', 'Projects', 'Contact'] as const
     },
     project : {
         projects : [
