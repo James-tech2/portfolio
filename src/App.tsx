@@ -12,8 +12,7 @@ function App() {
     <>
       <Navbar sectionRef={navbarRef} />
       {content.navbar.navlinks.map((name) => {
-        const key = name as keyof typeof sectionComponents;
-        const Component = sectionComponents[key];
+        const Component = sectionComponents[name];
 
         return (
           <section
